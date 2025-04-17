@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47f31c81-10fd-462c-8d5b-f3f136bfdfd6" name="Alterações" comment="" />
+    <list default="true" id="47f31c81-10fd-462c-8d5b-f3f136bfdfd6" name="Alterações" comment="feat: create TransactionRepository">
+      <change afterPath="$PROJECT_DIR$/picpaysimplificado/src/main/java/com/picpay/picpaysimplificado/controllers/TransactionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picpaysimplificado/src/main/java/com/picpay/picpaysimplificado/controllers/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picpaysimplificado/src/main/java/com/picpay/picpaysimplificado/dtos/ExceptionDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picpaysimplificado/src/main/java/com/picpay/picpaysimplificado/dtos/NotificationDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picpaysimplificado/src/main/java/com/picpay/picpaysimplificado/dtos/TransactionDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picpaysimplificado/src/main/java/com/picpay/picpaysimplificado/dtos/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picpaysimplificado/src/main/java/com/picpay/picpaysimplificado/infra/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picpaysimplificado/src/main/java/com/picpay/picpaysimplificado/infra/ControllerExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picpaysimplificado/src/main/java/com/picpay/picpaysimplificado/services/NotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picpaysimplificado/src/main/java/com/picpay/picpaysimplificado/services/TransactionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picpaysimplificado/src/main/java/com/picpay/picpaysimplificado/services/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picpaysimplificado/src/test/java/com/picpay/picpaysimplificado/repositories/UserRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picpaysimplificado/src/test/resources/application-test.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/picpaysimplificado/src/main/java/com/picpay/picpaysimplificado/domain/transaction/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/picpaysimplificado/src/main/java/com/picpay/picpaysimplificado/domain/transaction/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/picpaysimplificado/src/main/java/com/picpay/picpaysimplificado/domain/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/picpaysimplificado/src/main/java/com/picpay/picpaysimplificado/domain/user/User.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,8 +32,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
+        <option value="Record" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -32,13 +52,48 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Aplicação.PicpaysimplificadoApplication.executor": "Run",
+    "JUnit.UserRepositoryTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/hmesq/desenv/picpaysimplificado",
     "settings.editor.selected.configurable": "preferences.language.and.region"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.picpay.picpaysimplificado.repositories" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="UserRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="picpaysimplificado" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.picpay.picpaysimplificado.repositories.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.picpay.picpaysimplificado.repositories" />
+      <option name="MAIN_CLASS_NAME" value="com.picpay.picpaysimplificado.repositories.UserRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserRepositoryTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="nível de aplicação" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Tarefa padrão">
@@ -48,6 +103,55 @@
       <option name="presentableId" value="Default" />
       <updated>1744759301541</updated>
     </task>
+    <task id="LOCAL-00001" summary="feat: initial config">
+      <option name="closed" value="true" />
+      <created>1744764898519</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1744764898519</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: create User entity">
+      <option name="closed" value="true" />
+      <created>1744764957854</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1744764957854</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: create Transaction entity">
+      <option name="closed" value="true" />
+      <created>1744764972899</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1744764972899</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: create UserRepository">
+      <option name="closed" value="true" />
+      <created>1744765014154</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1744765014154</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: create TransactionRepository">
+      <option name="closed" value="true" />
+      <created>1744765128319</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1744765128319</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: initial config" />
+    <MESSAGE value="feat: create User entity" />
+    <MESSAGE value="feat: create Transaction entity" />
+    <MESSAGE value="feat: create UserRepository" />
+    <MESSAGE value="feat: create TransactionRepository" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: create TransactionRepository" />
   </component>
 </project>
