@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47f31c81-10fd-462c-8d5b-f3f136bfdfd6" name="Alterações" comment="refact: create a new class for AuthorizationService">
-      <change afterPath="$PROJECT_DIR$/picpaysimplificado/src/test/java/com/picpay/picpaysimplificado/repositories/UserRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/picpaysimplificado/src/test/java/com/picpay/picpaysimplificado/services/TransactionServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/picpaysimplificado/src/test/resources/application-test.properties" afterDir="false" />
+    <list default="true" id="47f31c81-10fd-462c-8d5b-f3f136bfdfd6" name="Alterações" comment="test: add unit test for TransactionService and UserRepository">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/picpaysimplificado/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/picpaysimplificado/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,7 +204,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744943056141</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="test: add unit test for TransactionService and UserRepository">
+      <option name="closed" value="true" />
+      <created>1744943624144</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1744943624144</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -221,6 +227,7 @@
     <MESSAGE value="feat: create notificationService and AppConfig" />
     <MESSAGE value="feat: create exception handler" />
     <MESSAGE value="refact: create a new class for AuthorizationService" />
-    <option name="LAST_COMMIT_MESSAGE" value="refact: create a new class for AuthorizationService" />
+    <MESSAGE value="test: add unit test for TransactionService and UserRepository" />
+    <option name="LAST_COMMIT_MESSAGE" value="test: add unit test for TransactionService and UserRepository" />
   </component>
 </project>
